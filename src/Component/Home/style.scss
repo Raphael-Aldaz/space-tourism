@@ -1,0 +1,59 @@
+.home_text{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+    h1{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    }
+    p{
+        max-width: 480px;
+    }
+
+
+  
+  }
+  
+  .home_explore{
+    display: grid;
+    
+    align-items: center;
+    justify-content: flex-end;
+    grid-area: button;
+
+    button {
+      height: 250px;
+      width: 250px;
+      border-radius: 1000px;
+      border: none;
+      font-size: 32px;
+      font-family: "Bellefair";
+      text-transform: uppercase;
+      letter-spacing: 2.4px;
+      font-weight: 400;
+      position: relative;
+      background-color: white;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+      color: black;
+  
+      @media screen and (max-width: 655px) {
+        height: 150px;
+        width: 150px;
+        font-size: 20px;
+      }
+    }
+    button:hover {
+        box-shadow: 0px 0px 0px 60px #ffffff3a;
+      }
+    
+      @media screen and (max-width: 1233px) {
+        justify-content: center;
+      }
+
+
+  }
+
+
